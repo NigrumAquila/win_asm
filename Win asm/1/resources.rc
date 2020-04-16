@@ -1,0 +1,17 @@
+#define IDM_HELLO   1
+#define IDM_CLEAR   2
+#define IDM_GETTEXT 3
+#define IDM_EXIT    4
+
+Menu MENU
+{
+	POPUP "Menu"
+  	{
+       MENUITEM "Hello", IDM_HELLO
+       MENUITEM "Clean field", IDM_CLEAR
+       MENUITEM "Get text from field", IDM_GETTEXT
+       MENUITEM SEPARATOR
+       MENUITEM "Exit", IDM_EXIT
+    }
+}
+

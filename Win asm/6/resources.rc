@@ -1,0 +1,21 @@
+#define IDM_START_THREAD_1 1
+#define IDM_STOP_THREAD_1  2
+#define IDM_START_THREAD_2 3
+#define IDM_STOP_THREAD_2  4
+#define IDM_EXIT           5
+#define IDI_ICON           500
+
+IDI_ICON ICON "shl.ico"
+
+Menu MENU
+{
+	 POPUP "Menu"
+    {
+        MENUITEM "Start thread 1", IDM_START_THREAD_1
+        MENUITEM "Stop thread 1", IDM_STOP_THREAD_1, GRAYED
+		MENUITEM "Start thread 2", IDM_START_THREAD_2
+        MENUITEM "Stop thread 2", IDM_STOP_THREAD_2, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Exit", IDM_EXIT
+	}
+}

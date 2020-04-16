@@ -1,0 +1,17 @@
+#define IDM_RUN   1
+#define IDM_KILL   2
+#define IDM_EXIT    3
+
+
+
+Menu MENU
+{
+	POPUP "Menu"
+    {
+	   MENUITEM "Run process", IDM_RUN
+	   MENUITEM "Kill process", IDM_KILL
+	   MENUITEM SEPARATOR
+	   MENUITEM "Exit", IDM_EXIT
+    }
+       
+}

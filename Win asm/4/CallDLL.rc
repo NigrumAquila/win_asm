@@ -1,0 +1,8 @@
+Menu MENU
+{
+ 	POPUP "Menu"
+    {
+	   MENUITEM "Exit", 1
+    }
+       
+}

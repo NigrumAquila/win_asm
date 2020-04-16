@@ -1,0 +1,14 @@
+#define IDM_CLEAR   2
+#define IDM_GETTEXT 3
+#define IDM_EXIT    4
+
+Menu MENU
+{
+	 POPUP "Menu"
+    {
+       MENUITEM "Clear ""Edit""", IDM_CLEAR
+       MENUITEM "Get dec from hex ""Edit""", IDM_GETTEXT
+       MENUITEM SEPARATOR
+       MENUITEM "Exit", IDM_EXIT
+    }
+}
